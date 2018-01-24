@@ -1,0 +1,199 @@
+body {
+    background-color: #F5F5F5;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px
+}
+
+.caption{
+    margin:10px;
+    color: #3B3B3B;
+    font-size: 28px;
+}
+
+.deck {
+    width: 72px;
+    height: 108px;
+    border-radius: 5px;
+    outline: none;
+    position: absolute;
+    transition: 200ms ease-out;
+}
+
+.store {
+    height: 440px;
+    width: 310px;
+    border: 3px solid #3B3B3B;
+    background-color: #3B3B3B;
+    padding: 5px;
+    display: block;
+    overflow-y: scroll;
+    float: left;
+    z-index: 1;
+    position: relative;
+    padding-top: 20px;
+}
+
+.selectBlock {
+    display: inline-block;    
+    width: auto;
+    padding: 20px;
+    padding-top: 0;
+    color: #3B3B3B;
+    max-width: 228px; 
+}
+
+.select {
+    width: 207px;
+    border: 0px;
+    background-color: #DBDBDB;
+    z-index: 1;
+    outline: none;
+    padding: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.selects {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;  
+    cursor: default;
+}
+
+.message {
+    z-index: 1;
+    background-color: #DBDBDB;
+    display: inline-block;    
+    width: 600px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 93px;
+    padding: 5px;
+    font-size: 42px;
+    padding-top: 0;
+    cursor: default;
+    color: #3B3B3B;
+    transition: 1000ms ease-out;
+}
+
+p#block {
+    margin: 2px;
+}
+
+.startButton {
+    border: 0px;
+    width: 200px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 52px;
+    color: #F5F5F5;
+    background-color: #01c101;
+    outline: none;
+    cursor: pointer;
+    margin-left: 296px;
+    margin-top: 28px;
+    transition: 200ms ease-out;
+}
+
+.startButton:hover {
+    box-shadow: 0 0 5px black
+}
+
+.deck:hover {
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+.store::-webkit-scrollbar {
+    width: 8px;
+}
+
+.store::-webkit-scrollbar-thumb:hover {
+    background-color: #1B1B1B;
+}
+
+.store::-webkit-scrollbar-thumb {
+    background-color: #2B2B2B;
+}
+
+#C2,#C4,#C6,#C8,#C10,#CQ {
+    left:20px;
+}
+
+#C3,#C5,#C7,#C9,#CJ,#CK {
+    left: 160px;
+}
+
+#S2,#S4,#S6,#S8,#S10,#SQ {
+    left:40px;
+}
+
+#S3,#S5,#S7,#S9,#SJ,#SK {
+    left: 180px;
+}
+
+#D2,#D4,#D6,#D8,#D10,#DQ {
+    left:60px;    
+}
+
+#D3,#D5,#D7,#D9,#DJ,#DK {
+    left: 200px;
+}
+
+#H2,#H4,#H6,#H8,#H10,#HQ {
+    left:80px;    
+}
+
+#H3,#H5,#H7,#H9,#HJ,#HK {
+    left: 220px;
+}
+
+
+
+#C2,#S2,#D2,#H2,#C3,#S3,#D3,#H3 {
+    top: 30px;   
+}
+
+#C4,#S4,#D4,#H4,#C5,#S5,#D5,#H5 {
+    top: 142px;
+}
+
+#C6,#S6,#D6,#H6,#C7,#S7,#D7,#H7 {
+    top: 254px;
+}
+
+#C8,#S8,#D8,#H8,#C9,#S9,#D9,#H9 {
+    top: 366px;
+}
+
+#C10,#S10,#D10,#H10,#CJ,#SJ,#DJ,#HJ {
+    top: 478px;
+}
+
+#CQ,#SQ,#DQ,#HQ,#CK,#SK,#DK,#HK {
+    top: 590px
+}
+
+#CA,#SA,#DA,#HA {
+    top: 702px;
+}
+
+#CA {
+    left: 100px;
+}
+
+#SA {
+    left: 120px;
+}
+
+#DA {
+    left: 140px;
+}
+
+#HA {
+    left: 160px;
+}

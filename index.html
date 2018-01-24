@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Poker Cards</title>
+</head>
+
+<body>
+    <h1 class="caption">Select your two cards</h1>
+    <div class="store">
+        <div>
+            <img tabindex="1" class="deck" src="images/2C.png" id="C2">
+            <img tabindex="2" class="deck" src="images/2S.png" id="S2">
+            <img tabindex="3" class="deck" src="images/2D.png" id="D2">
+            <img tabindex="4" class="deck" src="images/2H.png" id="H2">
+        </div>
+        <div>
+            <img tabindex="5" class="deck" src="images/3C.png" id="C3">
+            <img tabindex="6" class="deck" src="images/3S.png" id="S3">
+            <img tabindex="7" class="deck" src="images/3D.png" id="D3">
+            <img tabindex="8" class="deck" src="images/3H.png" id="H3">
+        </div>
+        <div>
+            <img tabindex="9" class="deck" src="images/4C.png" id="C4">
+            <img tabindex="10" class="deck" src="images/4S.png" id="S4">
+            <img tabindex="11" class="deck" src="images/4D.png" id="D4">
+            <img tabindex="12" class="deck" src="images/4H.png" id="H4">
+        </div>
+        <div>
+            <img tabindex="13" class="deck" src="images/5C.png" id="C5">
+            <img tabindex="14" class="deck" src="images/5S.png" id="S5">
+            <img tabindex="15" class="deck" src="images/5D.png" id="D5">
+            <img tabindex="16" class="deck" src="images/5H.png" id="H5">
+        </div>
+        <div>
+            <img tabindex="17" class="deck" src="images/6C.png" id="C6">
+            <img tabindex="18" class="deck" src="images/6S.png" id="S6">
+            <img tabindex="19" class="deck" src="images/6D.png" id="D6">
+            <img tabindex="20" class="deck" src="images/6H.png" id="H6">
+        </div>
+        <div>
+            <img tabindex="21" class="deck" src="images/7C.png" id="C7">
+            <img tabindex="22" class="deck" src="images/7S.png" id="S7">
+            <img tabindex="23" class="deck" src="images/7D.png" id="D7">
+            <img tabindex="24" class="deck" src="images/7H.png" id="H7">
+        </div>
+        <div>
+            <img tabindex="25" class="deck" src="images/8C.png" id="C8">
+            <img tabindex="26" class="deck" src="images/8S.png" id="S8">
+            <img tabindex="27" class="deck" src="images/8D.png" id="D8">
+            <img tabindex="28" class="deck" src="images/8H.png" id="H8">
+        </div>
+        <div>
+            <img tabindex="29" class="deck" src="images/9C.png" id="C9">
+            <img tabindex="30" class="deck" src="images/9S.png" id="S9">
+            <img tabindex="31" class="deck" src="images/9D.png" id="D9">
+            <img tabindex="32" class="deck" src="images/9H.png" id="H9">
+        </div>
+        <div>
+            <img tabindex="33" class="deck" src="images/10C.png" id="C10">
+            <img tabindex="34" class="deck" src="images/10S.png" id="S10">
+            <img tabindex="35" class="deck" src="images/10D.png" id="D10">
+            <img tabindex="36" class="deck" src="images/10H.png" id="H10">
+        </div>
+        <div>
+            <img tabindex="37" class="deck" src="images/JC.png" id="CJ">
+            <img tabindex="38" class="deck" src="images/JS.png" id="SJ">
+            <img tabindex="39" class="deck" src="images/JD.png" id="DJ">
+            <img tabindex="40" class="deck" src="images/JH.png" id="HJ">
+        </div>
+        <div>
+            <img tabindex="41" class="deck" src="images/QC.png" id="CQ">
+            <img tabindex="42" class="deck" src="images/QS.png" id="SQ">
+            <img tabindex="43" class="deck" src="images/QD.png" id="DQ">
+            <img tabindex="44" class="deck" src="images/QH.png" id="HQ">
+        </div>
+        <div>
+            <img tabindex="45" class="deck" src="images/KC.png" id="CK">
+            <img tabindex="46" class="deck" src="images/KS.png" id="SK">
+            <img tabindex="47" class="deck" src="images/KD.png" id="DK">
+            <img tabindex="48" class="deck" src="images/KH.png" id="HK">
+        </div>
+        <div>
+            <img tabindex="49" class="deck" src="images/AC.png" id="CA">
+            <img tabindex="50" class="deck" src="images/AS.png" id="SA">
+            <img tabindex="51" class="deck" src="images/AD.png" id="DA">
+            <img tabindex="52" class="deck" src="images/AH.png" id="HA">
+        </div>
+    </div>
+    <div class="selects">
+        <div class="selectBlock">
+            <p>How many people are there in your game?</p>
+            <select class="select" name="peopleInGame">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6" selected>6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <div class="selectBlock">
+            <p>Has someone raised the rate before you ?</p>
+            <select class="select" name="somebodyRaise">
+                <option value="0">Check</option>
+                <option value="1">BET</option>
+                <option value="2">3 BET</option>
+                <option value="3">More 3 BET</option>
+                <option value="4">Re-Raise</option>
+            </select>
+        </div>
+        <div class="selectBlock">
+            <p>Your position in a game</p>
+            <select class="select" name="positionInGame">
+                <option value="0">Early</option>
+                <option value="1">Middle</option>
+                <option value="2">Late</option>
+            </select>
+        </div>
+        <div>
+            <button class="startButton">Start</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
